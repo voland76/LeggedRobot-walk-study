@@ -1,0 +1,48 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "../protos/Floor2_description/Floor2.proto"
+EXTERNPROTO "../protos/LeggedRobot_description/urdf/LeggedRobot.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.16939067844340402 -0.046806404942747556 0.984436873807975 3.672799876049079
+  position 1.642558659043127 0.8948453701553774 0.7566093288510826
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor2 {
+}
+LeggedRobot {
+  hidden translation_3 0 -0.05 0.045
+  hidden rotation_3 0 0 1 1.3328003749250115e-07
+  hidden translation_4 0.04 0 -0.045328
+  hidden rotation_4 -1 0 0 2.893282151065661e-06
+  hidden translation_5 -0.04 -0.02 7e-05
+  hidden rotation_5 0 -0.9999999999999999 0 2.9802322387695313e-08
+  hidden translation_6 0 0.005 -0.14
+  hidden rotation_6 0 1 0 0
+  hidden translation_7 0 0 -0.14
+  hidden rotation_7 0 -1 0 4.2146848510894035e-08
+  hidden translation_8 -0.035 0.015 7e-05
+  hidden rotation_8 -1 0 0 3.243801741504818e-06
+  hidden translation_9 0 0.05 0.045
+  hidden rotation_9 0 0 -1 1.4600096599955432e-07
+  hidden translation_10 0.04 0 -0.045328
+  hidden rotation_10 -1 0 0 4.0311428115162325e-06
+  hidden translation_11 -0.04 -0.02 -7.1e-05
+  hidden rotation_11 0 -1 0 1.3549408819281485e-06
+  hidden translation_12 0 0.005 -0.14
+  hidden rotation_12 0 -1 0 2.9802322387695313e-08
+  hidden translation_13 0 0 -0.14
+  hidden rotation_13 0 -1 0 1.1426382966447516e-06
+  hidden translation_14 -0.035 0.015 7.1e-05
+  hidden rotation_14 -1 0 0 4.2146848510894035e-08
+  translation -0.00024176973590170385 -7.123817625006155e-05 0.32478119814130463
+  rotation 0.19588935136233143 -0.9780217747000504 -0.07141967680835047 0.0009376240156341993
+  controller "Static_walk_controller_12phases"
+}
